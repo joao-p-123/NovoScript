@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+    background-color: rgb(38, 202, 231);
+  
+}
+
+header{
+    background-color: #423d3d;
+    padding: 10px;
+    color: bisque;
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+    background-color: rgb(38, 202, 231);
+}
+
+.card{
+    background-color: #423d3d;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 45%;
+}
+
+.lineinput{
+    display: grid;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+}
+
+label{
+    color: #fff;
+}
+
+button{
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3ms;
+}
+
+button:hover{
+    background-color: rgb(43, 12, 72);
+
+}
+
+.content{
+    margin-top: 15px;
+   
+}
+
+table{
+    background-color: #423d3d;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100px;
+
+}
+
+table th{
+    border-collapse: rgb(214, 214, 214);
+   
+   
+}
+
+table th, td{
+    padding: 1px 5px;
+    text-align: left;
+
+}
+
+table td img{
+    width: 22px;
+}
+
+thead{
+    width: 100%;
+
+}
+
+
+
+
+.center{
+    text-align: center;
+}

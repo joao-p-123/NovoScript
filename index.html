@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Javascript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .content,
+        .content table {
+            width: 100%;
+            /* Ajuste a largura conforme necessário */
+
+
+            /* Ajuste o valor conforme necessário */
+            margin: 0 auto;
+            /* Centraliza o elemento */
+        }
+
+        .content table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lista de Produtos</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Lista de produtos</h2>
+
+        </div>
+
+        <div class="card">
+            <div class="lineinput">
+                <label>Produtos</label>
+                <input type="text" id="produto" placeholder="Nome do produto">
+            </div>
+
+            <div class="lineinput">
+                <label>Quantidade</label>
+                <input type="number" id="Quantidade" placeholder="Quantidade">
+            </div>
+
+            <div class="lineinput">
+                <label>Preço</label>
+                <input type="float" id="preco" placeholder="Valor do produto">
+            </div>
+
+            <button onclick="produto.salvar()" id="btn1">Salvar</button>
+            <button onclick="produto.cancelar()">Cancelar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="script/script1.js"></script>
+</body>
+
+</html>
